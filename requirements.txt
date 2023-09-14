@@ -180,6 +180,7 @@ numpy==1.25.2
     #   contourpy
     #   matplotlib
     #   pandas
+    #   scipy
     #   seaborn
 overrides==7.4.0
     # via jupyter-server
@@ -275,6 +276,8 @@ rpds-py==0.10.2
     # via
     #   jsonschema
     #   referencing
+scipy==1.11.2
+    # via -r requirements.in
 seaborn==0.12.2
     # via -r requirements.in
 send2trash==1.8.2
